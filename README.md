@@ -21,4 +21,4 @@ Accept them, make some more changes, play around with it from here.
 Above instructions are a subset of this tutorial: https://percy.io/docs/tutorials/storybook-for-react
 
 # Slides from the lightning talk at ReactBoston 2017
-https://drive.google.com/file/d/0B3tguR7m9A5nTlMwZzdZTG5EQ28/view?usp=sharing
+https://drive.google.com/file/d/0B3tguR7m9A5nMk5yQ01Ydmw5S1U/view?usp=sharing
