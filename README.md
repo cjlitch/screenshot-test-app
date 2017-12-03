@@ -22,3 +22,6 @@ Above instructions are a subset of this tutorial: https://percy.io/docs/tutorial
 
 # Slides from the lightning talk at ReactBoston 2017
 https://drive.google.com/file/d/0B3tguR7m9A5nMk5yQ01Ydmw5S1U/view?usp=sharing
+
+# Photo Credit
+Photo by Melanie Mauer on Unsplash
