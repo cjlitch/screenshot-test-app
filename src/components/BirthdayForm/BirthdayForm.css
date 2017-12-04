@@ -1,0 +1,25 @@
+.birthday-container {
+  margin-top: 100px;
+  background-image: url("../../images/constellation.png");
+  background-size: 600px;
+  background-repeat: no-repeat;
+  background-position: top right;
+  min-height: 300px;
+}
+
+.birthday-form-button {
+  padding: 20px;
+  background-color: #ddd;
+  font-family: 'Spectral SC', serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 60px;
+}
+
+.horoscope {
+  text-align: center;
+  font-family: 'Spectral SC', serif;
+  font-weight: 400;
+  color: #4c4c4c;
+  margin-top: 100px;
+}

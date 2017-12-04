@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import BirthdayForm from './components/BirthdayForm';
+import BirthdayForm from './components/BirthdayForm/BirthdayForm';
 
 class App extends Component {
 
@@ -17,6 +16,11 @@ class App extends Component {
                     </div>
                 </div>
                 <BirthdayForm />
+                <div className="footer">
+                    <div className="container">
+                        <p>Made with &hearts; in NY by Carly Litchfield</p>
+                    </div>
+                </div>
             </div>
         );
     }

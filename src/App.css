@@ -1,6 +1,6 @@
 .hero {
   background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('./images/cowboy-boots-melanie-mauer.jpg');
-  height: 500px;
+  height: 400px;
   background-size: cover;
   background-position: bottom;
   display: flex;
@@ -47,4 +47,15 @@
 label {
   font-family: 'Open Sans', sans-serif;
   color: #4c4c4c;  
+}
+
+.footer {
+  border-top: 1px solid #ccc;
+  margin-top: 100px;
+  color: #bbb;
+  font-size: 13px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #ddd;
+  font-family: 'Open Sans', sans-serif;
 }

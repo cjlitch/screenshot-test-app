@@ -1,15 +1,13 @@
-export const CowboyWisdom = [
+export const CowboyHoroscopes = [
     "Never approach a bull from the front, a horse from the rear, or a fool from any direction.",
     "Don't squat with your spurs on.",
     "Don't judge people by their relatives.",
     "Behind every successful rancher is a wife who works in town.",
-    "When you lose, don't lose the lesson.",
     "Talk slowly, think quickly.",
-    "Remember that silence is sometimes the best answer.",
     "Live a good, honorable life. Then when you get older and think back, you'll enjoy it a second time.",
     "Don't interfere with something that ain't botherin' you none.",
     "Timing has a lot to do with the outcome of a rain dance.",
-    "It's better to be a has-been that a never-was.",
+    "It's better to be a has-been than a never-was.",
     "The easiest way to eat crow is while it's still warm.",
     "The colder it gets, the harder it is to swaller.",
     "If you find yourself in a hole, the first thing to do is stop diggin'.",
@@ -30,7 +28,7 @@ export const CowboyWisdom = [
     "Lettin' the cat outta the bag is a whole lot easier than puttin' it back.",
     "Always take a good look at what you're about to eat. It's not so important to know what it is, but it's sure crucial to know what it was.",
     "The quickest way to double your money is to fold it over and put it back into your pocket.",
-    "You can't tell how good a man or a watermelon is 'til they get thumped.(Character shows up best when tested.)",
+    "You can't tell how good a man or a watermelon is 'til they get thumped.",
     "Never miss a good chance to shut up.",
     "If lawyers are disbarred and clergymen are defrocked, shouldn't it follow that cowboys would be deranged?",
     "There never was a horse that couldn't be rode;",
@@ -50,8 +48,6 @@ export const CowboyWisdom = [
     "The best sermons are lived, not preached.",
     "Most of the stuff people worry about ain’t never gonna happen anyway.",
     "Don’t judge folks by their relatives.",
-    "Remember that silence is sometimes the best answer.",
-    "Live a good, honorable life… Then when you get older and think back, you’ll enjoy it a second time.",
     "Don‘t interfere with somethin’ that ain’t bothering you none.",
     "Timing has a lot to do with the outcome of a Rain dance.",
     "If you find yourself in a hole, the first thing to do is stop diggin’.",
@@ -62,4 +58,19 @@ export const CowboyWisdom = [
     "Lettin’ the cat outta the bag is a whole lot easier than puttin’ it back in.",
     "If you get to thinkin’ you’re a person of some influence, try orderin’ somebody else’s dog around.",
     "Don’t pick a fight with an old man. If he is too old to fight, he’ll just kill you.",
+];
+
+export const Months = [
+    'January', 
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December'
 ];
