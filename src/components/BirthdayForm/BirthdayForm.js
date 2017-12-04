@@ -2,10 +2,13 @@ import React, { Component } from 'react';
 import BirthdaySelect from '../BirthdaySelect/BirthdaySelect';
 import './BirthdayForm.css';
 import { CowboyHoroscopes, Months } from '../../config';
+import moment from 'moment';
 
 class BirthdayForm extends Component {
     state = {
-        horoscrope: ''
+        horoscrope: '',
+        day: null,
+        month: null,
     }
 
     constructor(props) {
@@ -15,11 +18,26 @@ class BirthdayForm extends Component {
     }
 
     renderHoroscope() {
-        const randomIndex = Math.floor(Math.random() * CowboyHoroscopes.length);
-        const horoscrope = CowboyHoroscopes[randomIndex];
+        const year = new moment().year();
+        const birthday = new moment(`${year}-${this.state.month}-${this.state.day}`);
+
+        const index = (Math.abs(birthday.dayOfYear() - new moment().dayOfYear())) % CowboyHoroscopes.length;
+        const horoscrope = CowboyHoroscopes[index];
 
         this.setState({
             horoscrope
+        });
+    }
+
+    setDay(selectedDay) {
+        this.setState({
+            day: selectedDay.value
+        });
+    }
+
+    setMonth(selectedMonth) {
+        this.setState({
+            month: selectedMonth.value
         });
     }
 
@@ -37,7 +55,7 @@ class BirthdayForm extends Component {
 
         for(var j = 0; j < Months.length; j++) {
             monthOptions[j] = {
-                value: Months[j],
+                value: j + 1,
                 label: Months[j]
             };
         }
@@ -49,11 +67,13 @@ class BirthdayForm extends Component {
                 
                 <BirthdaySelect
                     label={"Month"}
-                    options={monthOptions} />
+                    options={monthOptions}
+                    onChange={(selected) => this.setMonth(selected)} />
 
                 <BirthdaySelect
                     label={"Day"}
-                    options={dayOptions} />
+                    options={dayOptions}
+                    onChange={(selected) => this.setDay(selected)} />
 
                 <button
                     className="birthday-form-button"

@@ -8,6 +8,7 @@ class BirthdaySelect extends Component {
     static propTypes = {
         label: PropTypes.string.isRequired,
         options: PropTypes.array.isRequired,
+        onChange: PropTypes.func.isRequired,
     }
 
     state = {
@@ -16,6 +17,7 @@ class BirthdaySelect extends Component {
   
     handleChange = (selectedOption) => {
         this.setState({ selectedOption });
+        this.props.onChange(selectedOption);
     }
 
     render() {
