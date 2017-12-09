@@ -18,7 +18,6 @@ export const CowboyHoroscopes = [
     "Good judgment comes from experience, and a lotta that comes from bad judgment.",
     "When you give a personal lesson in meanness to a critter or to a person, don't be surprised if they learn their lesson.",
     "When you're throwin' your weight around, be ready to have it thrown around by somebody else.",
-    "Lettin' the cat outta the bag is a whole lot easier than puttin' it back.",
     "Always take a good look at what you're about to eat. It's not so important to know what it is, but it's sure crucial to know what it was.",
     "The quickest way to double your money is to fold it over and put it back into your pocket.",
     "You can't tell how good a man or a watermelon is 'til they get thumped.",
