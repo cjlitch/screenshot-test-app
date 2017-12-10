@@ -1,5 +1,5 @@
 {
-  "name": "screenshot-test-app",
+  "name": "cowboy-horoscope",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,6 +21,6 @@
   },
   "devDependencies": {
     "@percy-io/percy-storybook": "^1.2.7",
-    "@storybook/react": "^3.2.16"
+    "@storybook/react": "^3.2.17"
   }
 }
