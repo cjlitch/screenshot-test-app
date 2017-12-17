@@ -56,6 +56,10 @@ export function cowboyHoroscopeReducer(state, action) {
 }
 
 const getHoroscope = (month, day) => {
+    if (!month || !day) {
+        return null;
+    }
+
     const year = new moment().year();
     const birthday = new moment(`${year}-${month.value}-${day.value}`);
 
