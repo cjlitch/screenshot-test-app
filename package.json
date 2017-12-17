@@ -7,8 +7,10 @@
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
     "react-scripts": "1.0.11",
-    "react-select": "^1.1.0"
+    "react-select": "^1.1.0",
+    "redux": "^3.7.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,6 +23,9 @@
   },
   "devDependencies": {
     "@percy-io/percy-storybook": "^1.2.7",
-    "@storybook/react": "^3.2.17"
+    "@storybook/react": "^3.2.17",
+    "mocha": "^4.0.1",
+    "wdio-mocha-framework": "^0.5.12",
+    "webdriverio": "^4.9.11"
   }
 }
