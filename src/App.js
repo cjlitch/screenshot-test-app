@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import BirthdayForm from './components/BirthdayForm/BirthdayForm';
+import BirthdayForm from './components/BirthdayForm';
 
 class App extends Component {
 
