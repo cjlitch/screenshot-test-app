@@ -1,8 +1,18 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import BirthdaySelect from '../BirthdaySelect/BirthdaySelect';
 import './BirthdayForm.css';
 
 class BirthdayForm extends Component {
+    static propTypes = {
+        setMonth: PropTypes.func.isRequired,
+        setDay: PropTypes.func.isRequired,
+        months: PropTypes.array.isRequired,
+        days: PropTypes.array.isRequired,
+        revealHoroscope: PropTypes.func.isRequired,
+        horoscope: PropTypes.string,
+    }
+
     render() {
         return (
             <div className="container birthday-container">
