@@ -50,9 +50,10 @@ export function cowboyHoroscopeReducer(state, action) {
                 ...state,
                 horoscope: getHoroscope(state.selectedMonth, state.selectedDay)
             };
+        
+        default:
+            return state;
     }
-    
-    return state;
 }
 
 const getHoroscope = (month, day) => {
