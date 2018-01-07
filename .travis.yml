@@ -10,8 +10,3 @@ script:
   - npm run build
   - npm run start &
   - sleep 30 && npm run test:interaction
-addons:
-  browserstack:
-    username: "carlylitchfield1"
-    access_key:
-      secure: "bWXDUO6UNXLLmY4At+QyfcsjbtUr4XbFH1FDpRYy20/Gm8JCQnB0lzZ+UkGvK2JO0ZCbFhFbXP2LUOiH93KiSST2He4vAHQflHIFk4J0gpC20iF0djtyopm9KVZkUWgKaZ8qN8+BmtC19K8kjQxZE5N8/hU/WX8kl1GTG/ZJed6sEO3AwlvuSeWVkbuXMxNt1pb7JP/lqSpHo18icrRnPlDxYSIa+QAVG+fF60rzlCqxcSGZG2a1rlmbTt4/QgrPgvGB+EIfpXxXwEoDWRYIiQhAxEkhynFSDSz4wkMFb0VnLsunCfHnJMs/odD/PF8/kVBG3H/0Fk5h2wpE17lIAh4ivUf/tOrCbvr569jxoal3NJ8ZwAMl8jXnb7WZoIQEpJpPSr7K3hPgaNME6TL8OrlRSoi4rIS4+Wn4IQ0BUPBj7LaMSmn/UtJ3fNDyW94d3O30QPhmS583LDkgiuEIxCODUk9VIFBciP7Qm2QjB/I9w3dCPrJ8VGlaRaqK0FI9wwGzfyWQGIHr0KcKMYawMWOCJbDh1CknGXnxaSVVy1M4t3OKUWFRRKRDGocZg1uNrDQyVFCue5F3rVpoByCryAFLjz6TYyeJJFAQAVnC1YNUUJqZsjHNy67KLPPeCDQaNshzMSF0BeYsYh8d9cSiHsjfnNH4p5Q+tePNvJO4SIQ="
