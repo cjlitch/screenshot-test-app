@@ -1,25 +1,25 @@
 # screenshot-test-app
 Demo for React test suite. Sample app is [Cowboy Horoscope](http://www.cowboyhoroscope.com/).
 
-# testing tools and frameworks
+# Testing tools and frameworks
 * Jest
 * Percy
 * [Browserstack](https://www.browserstack.com)
 * Webdriverio
 
-# useful links
+# Useful links
 * Percy documentation: https://percy.io/docs
 * Integrating Percy with Storybook and React: https://percy.io/docs/clients/javascript/react-storybook
 * Integrating Percy with React (still in beta - sign up!): https://percy.io/docs/clients/javascript/react
 * Setting up Storybook with React: https://storybook.js.org/basics/guide-react/
 
-# try it out
+# Try it out
 * Create an account on https://percy.io
 * Clone this repository
 * `npm install`
 * `export PERCY_TOKEN=<your token here>`
 * `export PERCY_PROJECT=<your project here>`
-* `npm run snapshot`
+* `npm run percy`
 * Browse to https://percy.io/<your project here> to view your diffs
 
 Accept them, make some more changes, play around with it from here.
