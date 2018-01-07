@@ -1,9 +1,9 @@
 var assert = require('assert');
 
-describe('webdriver.io page', function() {
-    it('should have the right title - the fancy generator way', function () {
-        browser.url('http://webdriver.io');
+describe('Cowbody Horoscope', function() {
+    it('should have the right title', function () {
+        browser.url('localhost:3000');
         var title = browser.getTitle();
-        assert.equal(title, 'WebdriverIO - WebDriver bindings for Node.js');
+        assert.equal(title, 'Cowboy Horoscope');
     });
 });
