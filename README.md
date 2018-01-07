@@ -4,7 +4,7 @@ Demo for React test suite. Sample app is [Cowboy Horoscope](http://www.cowboyhor
 # testing tools and frameworks
 * Jest
 * Percy
-* Browserstack
+* [Browserstack](https://www.browserstack.com)
 * Webdriverio
 
 # useful links
