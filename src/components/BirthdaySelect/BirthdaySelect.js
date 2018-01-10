@@ -22,7 +22,7 @@ class BirthdaySelect extends Component {
 
     render() {
         return (
-            <div className="birthday-select">
+            <div className="birthday-select" data-test="birthday-select">
                 <label className="birthday-label" htmlFor={this.props.label}>
                     {this.props.label}
                 </label>

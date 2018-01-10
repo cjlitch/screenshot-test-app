@@ -28,6 +28,7 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "mocha": "^4.0.1",
+    "wdio-browserstack-service": "^0.1.14",
     "wdio-mocha-framework": "^0.5.12",
     "webdriverio": "^4.9.11"
   }

@@ -31,11 +31,12 @@ class BirthdayForm extends Component {
 
                 <div
                     className="birthday-form-button"
-                    onClick={this.props.revealHoroscope}>
+                    onClick={this.props.revealHoroscope}
+                    data-test="reveal-horoscope">
                     Reveal your Cowboy Horoscope
                 </div>
 
-                <h1 className="horoscope">{this.props.horoscope}</h1>
+                <h1 className="horoscope" data-test="horoscope">{this.props.horoscope}</h1>
             </div>
         );
     }
