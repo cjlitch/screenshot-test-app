@@ -58,3 +58,10 @@ typings/
 .env
 
 storybook-static
+
+# browserstack error screenshot
+errorShots/
+
+# local selenium helpers
+geckodriver
+*.jar
