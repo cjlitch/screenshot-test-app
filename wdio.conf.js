@@ -40,16 +40,31 @@ exports.config = {
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
     // https://docs.saucelabs.com/reference/platforms-configurator
     //
-    capabilities: [{
-        // maxInstances can get overwritten per capability. So if you have an in-house Selenium
-        // grid with only 5 firefox instances available you can make sure that not more than
-        // 5 instances get started at a time.
-        maxInstances: 5,
-        //
-        browserName: 'chrome',
-        build: 'webdriver-browserstack',
-        'browserstack.local' : 'true',
-    }],
+    capabilities: [
+        {
+            // maxInstances can get overwritten per capability. So if you have an in-house Selenium
+            // grid with only 5 firefox instances available you can make sure that not more than
+            // 5 instances get started at a time.
+            maxInstances: 5,
+            browserName: 'chrome',
+            build: 'webdriver-browserstack',
+            'browserstack.local' : 'true',
+        },
+        {
+            maxInstances: 5,
+            browserName: 'firefox',
+            build: 'webdriver-browserstack',
+            'browserstack.local' : 'true',
+        },
+        {
+            maxInstances: 5,
+            'os_version' : '8.0',
+            'device' : 'Google Pixel',
+            'real_mobile' : 'true',
+            build: 'webdriver-browserstack',
+            'browserstack.local' : 'true',
+        }
+    ],
     browserstackLocal: true,
     //
     // ===================
