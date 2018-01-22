@@ -29,13 +29,13 @@ class BirthdayForm extends Component {
                     options={this.props.days}
                     onChange={(selected) => this.props.setDay(selected)} />
 
-                <button
+                <a
                     className="birthday-form-button"
                     onClick={this.props.revealHoroscope}
                     onTouchStart={this.props.revealHoroscope}                    
                     data-test="reveal-horoscope">
                     Reveal your Cowboy Horoscope
-                </button>
+                </a>
 
                 <h1 className="horoscope" data-test="horoscope">{this.props.horoscope}</h1>
             </div>
