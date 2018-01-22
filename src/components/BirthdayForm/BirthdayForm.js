@@ -34,7 +34,7 @@ class BirthdayForm extends Component {
                     onClick={this.props.revealHoroscope}
                     onTouchStart={this.props.revealHoroscope}                    
                     data-test="reveal-horoscope"
-                    href="#">
+                    href="#footer">
                     Reveal your Cowboy Horoscope
                 </a>
 

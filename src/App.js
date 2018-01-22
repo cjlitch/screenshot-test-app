@@ -16,7 +16,7 @@ class App extends Component {
                     </div>
                 </div>
                 <BirthdayForm />
-                <div className="footer">
+                <div className="footer" id="footer">
                     <div className="container">
                         <p>Made with &hearts; in NY by Carly Litchfield</p>
                     </div>
