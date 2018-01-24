@@ -59,3 +59,10 @@ label {
   background-color: #ddd;
   font-family: 'Open Sans', sans-serif;
 }
+
+@media (max-width: 1280px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
