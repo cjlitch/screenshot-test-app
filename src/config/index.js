@@ -43,7 +43,7 @@ export const CowboyHoroscopes = [
     "If you find yourself in a hole, the first thing to do is stop diggin’.",
     "Sometimes you get, and sometimes you get got.",
     "Always drink upstream from the herd.",
-    "Good judgment comes from experience, and a lotta that comes from bad judgment.",
+    "If your not makin’ dust your eattin’ it.",
     "Lettin’ the cat outta the bag is a whole lot easier than puttin’ it back in.",
     "Don’t pick a fight with an old man. If he is too old to fight, he’ll just kill you.",
 ];

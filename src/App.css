@@ -59,3 +59,13 @@ label {
   background-color: #ddd;
   font-family: 'Open Sans', sans-serif;
 }
+
+@media (max-width: 1280px) {
+  .container {
+    width: 90%;
+  }
+
+  .hero-title {
+    font-size: 48px;
+  }
+}
