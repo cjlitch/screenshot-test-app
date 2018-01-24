@@ -62,9 +62,10 @@ const getHoroscope = (month, day) => {
     }
 
     const year = new moment().year();
-    const birthday = new moment(`${year}-${month.value}-${day.value}`);
+    const birthday = new moment(`${year}/${month.value}/${day.value}`, 'YYYY-MM-DD');
 
     const index = (Math.abs(birthday.dayOfYear() - new moment().dayOfYear())) % CowboyHoroscopes.length;
+
     const horoscrope = CowboyHoroscopes[index];
 
     return horoscrope;
