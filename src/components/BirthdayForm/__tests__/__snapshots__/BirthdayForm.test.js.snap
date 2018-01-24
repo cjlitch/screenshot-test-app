@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BirthdayForm matches snapshot 1`] = `
+<div
+  className="container birthday-container"
+>
+  <h2
+    className="form-title"
+  >
+    Get your Cowboy Horoscope now
+  </h2>
+  <p
+    className="form-subtitle"
+  >
+    Enter the month and day of your birthday
+  </p>
+  <div
+    className="birthday-select"
+    data-test="birthday-select"
+  >
+    <label
+      className="birthday-label"
+      htmlFor="Month"
+    >
+      Month
+    </label>
+    <div
+      className="Select Select--single is-searchable"
+      style={undefined}
+    >
+      <div
+        className="Select-control"
+        onKeyDown={[Function]}
+        onMouseDown={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        style={undefined}
+      >
+        <span
+          className="Select-multi-value-wrapper"
+          id="react-select-2--value"
+        >
+          <div
+            className="Select-placeholder"
+          >
+            Select...
+          </div>
+          <div
+            className="Select-input"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              aria-activedescendant="react-select-2--value"
+              aria-describedby={undefined}
+              aria-expanded="false"
+              aria-haspopup="false"
+              aria-label={undefined}
+              aria-labelledby={undefined}
+              aria-owns=""
+              className={undefined}
+              id={undefined}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              role="combobox"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "5px",
+                }
+              }
+              tabIndex={undefined}
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+          </div>
+        </span>
+        <span
+          className="Select-arrow-zone"
+          onMouseDown={[Function]}
+        >
+          <span
+            className="Select-arrow"
+            onMouseDown={[Function]}
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="birthday-select"
+    data-test="birthday-select"
+  >
+    <label
+      className="birthday-label"
+      htmlFor="Day"
+    >
+      Day
+    </label>
+    <div
+      className="Select Select--single is-searchable"
+      style={undefined}
+    >
+      <div
+        className="Select-control"
+        onKeyDown={[Function]}
+        onMouseDown={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        style={undefined}
+      >
+        <span
+          className="Select-multi-value-wrapper"
+          id="react-select-3--value"
+        >
+          <div
+            className="Select-placeholder"
+          >
+            Select...
+          </div>
+          <div
+            className="Select-input"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              aria-activedescendant="react-select-3--value"
+              aria-describedby={undefined}
+              aria-expanded="false"
+              aria-haspopup="false"
+              aria-label={undefined}
+              aria-labelledby={undefined}
+              aria-owns=""
+              className={undefined}
+              id={undefined}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              role="combobox"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "5px",
+                }
+              }
+              tabIndex={undefined}
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+          </div>
+        </span>
+        <span
+          className="Select-arrow-zone"
+          onMouseDown={[Function]}
+        >
+          <span
+            className="Select-arrow"
+            onMouseDown={[Function]}
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+  <a
+    className="birthday-form-button"
+    data-test="reveal-horoscope"
+    href="#footer"
+    onClick={[Function]}
+    onTouchStart={[Function]}
+  >
+    Reveal your Cowboy Horoscope
+  </a>
+  <h1
+    className="horoscope"
+    data-test="horoscope"
+  />
+</div>
+`;
