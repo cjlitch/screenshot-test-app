@@ -10,6 +10,3 @@ script:
   - npm run build
   - npm run start &
   - sleep 30 && npm run test:interaction
-addons:
-  browserstack:
-    forcelocal: true
