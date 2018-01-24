@@ -62,7 +62,10 @@ label {
 
 @media (max-width: 1280px) {
   .container {
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 90%;
+  }
+
+  .hero-title {
+    font-size: 48px;
   }
 }
