@@ -1,3 +1,5 @@
+const buildString = new Date().toISOString();
+
 exports.config = {
     user: process.env.BROWSERSTACK_USERNAME || 'BROWSERSTACK_USERNAME',
     key: process.env.BROWSERSTACK_ACCESS_KEY || 'BROWSERSTACK_ACC_KEY',
@@ -47,13 +49,13 @@ exports.config = {
             // 5 instances get started at a time.
             maxInstances: 5,
             browserName: 'chrome',
-            build: 'webdriver-browserstack',
+            build: buildString,
             'browserstack.local' : 'true',
         },
         {
             maxInstances: 5,
             browserName: 'firefox',
-            build: 'webdriver-browserstack',
+            build: buildString,
             'browserstack.local' : 'true',
         },
         {
@@ -61,7 +63,7 @@ exports.config = {
             'os_version' : '8.0',
             'device' : 'Google Pixel',
             'real_mobile' : 'true',
-            build: 'webdriver-browserstack',
+            build: buildString,
             'browserstack.local' : 'true',
         }
     ],
