@@ -38,6 +38,9 @@ Above instructions are a subset of this tutorial: https://percy.io/docs/tutorial
 #### Browserstack
 ![BrowserStack Status](https://www.browserstack.com/automate/badge.svg?badge_key=MUhQUk4ya0hSZ203WkFOTTc5RnZMWGhSWW1MUk9WOTBTdlFZK29UcHc0Zz0tLTQ1YWl2VUtrdmlhbjl4elFZYXNKTHc9PQ==--fb113f60a27671eaa5e8fc568f61eea1c23847dc)
 
+# Slides from AgentConf
+https://github.com/cjlitch/screenshot-test-app/blob/master/Make%20backend%20devs%20jealous%20of%20your%20test%20suite.pdf
+
 # Slides from the lightning talk at ReactBoston 2017
 https://drive.google.com/file/d/0B3tguR7m9A5nMk5yQ01Ydmw5S1U/view?usp=sharing
 
