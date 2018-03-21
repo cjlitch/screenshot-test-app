@@ -10,3 +10,4 @@ script:
   - npm run build
   # - npm run start &
   # - sleep 30 && npm run test:interaction
+  - $(npm bin)/cypress run --record
