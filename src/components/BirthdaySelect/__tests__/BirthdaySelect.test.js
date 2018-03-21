@@ -4,6 +4,7 @@ import { shallow } from 'enzyme';
 import BirthdaySelect from '../BirthdaySelect';
 import Select from 'react-select';
 import renderer from 'react-test-renderer';
+import 'jest-styled-components';
 
 const defaultProps = {
     options: [1, 2, 3],
