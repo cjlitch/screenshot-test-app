@@ -4,6 +4,7 @@ import { shallow } from 'enzyme';
 import BirthdayForm from '../BirthdayForm';
 import BirthdaySelect from '../../BirthdaySelect/BirthdaySelect';
 import renderer from 'react-test-renderer';
+import 'jest-styled-components';
 
 const defaultProps = {
     months: [1, 2, 3],

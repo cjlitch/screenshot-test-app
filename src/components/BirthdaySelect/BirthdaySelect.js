@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Select from 'react-select';
 import 'react-select/dist/react-select.css';
-import './BirthdaySelect.css';
+import styled from 'styled-components';
+import styleguide from '../../styleguide';
 
-class BirthdaySelect extends Component {
+export default class BirthdaySelect extends Component {
     static propTypes = {
         label: PropTypes.string.isRequired,
         options: PropTypes.array.isRequired,
@@ -22,19 +23,28 @@ class BirthdaySelect extends Component {
 
     render() {
         return (
-            <div className="birthday-select" data-test="birthday-select">
-                <label className="birthday-label" htmlFor={this.props.label}>
+            <StyledSelect data-test="birthday-select">
+                <Label htmlFor={this.props.label}>
                     {this.props.label}
-                </label>
+                </Label>
                 <Select
                     name={this.props.label}
                     value={this.state.selectedOption.value}
                     onChange={this.handleChange}
                     clearable={false}
                     options={this.props.options} />
-            </div>
+            </StyledSelect>
         );
     }
 }
 
-export default BirthdaySelect;
+const Label = styled.label`
+    font-family: ${styleguide.fonts.openSans};
+    color: ${styleguide.colors.grayTundora};
+    font-weight: 400;
+`;
+
+const StyledSelect = styled.div`
+    margin-top: 20px;
+    max-width: 200px;`
+;
