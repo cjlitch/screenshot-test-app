@@ -8,6 +8,6 @@ script:
   - npm test
   - npm run percy
   - npm run build
-  # - npm run start &
+  - npm run start &
   # - sleep 30 && npm run test:interaction
-  - $(npm bin)/cypress run --record
+  - sleep 30 && $(npm bin)/cypress run --record
