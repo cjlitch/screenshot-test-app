@@ -25,7 +25,7 @@ exports[`BirthdayForm matches snapshot 1`] = `
       Month
     </label>
     <div
-      className="Select Select--single is-searchable"
+      className="Select is-searchable Select--single"
       style={undefined}
     >
       <div
@@ -118,7 +118,7 @@ exports[`BirthdayForm matches snapshot 1`] = `
       Day
     </label>
     <div
-      className="Select Select--single is-searchable"
+      className="Select is-searchable Select--single"
       style={undefined}
     >
       <div

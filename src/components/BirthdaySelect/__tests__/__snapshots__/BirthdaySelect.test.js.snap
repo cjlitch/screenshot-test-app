@@ -12,7 +12,7 @@ exports[`BirthdaySelect matches snapshot 1`] = `
     test
   </label>
   <div
-    className="Select Select--single is-searchable"
+    className="Select is-searchable Select--single"
     style={undefined}
   >
     <div
