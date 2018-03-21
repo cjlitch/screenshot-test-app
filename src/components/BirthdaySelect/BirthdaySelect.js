@@ -39,7 +39,7 @@ export default class BirthdaySelect extends Component {
 }
 
 const Label = styled.label`
-    font-family: ${styleguide.fonts.openSans};
+    font-family: ${styleguide.fonts.spectral};
     color: ${styleguide.colors.grayTundora};
     font-weight: 400;
 `;
