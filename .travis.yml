@@ -10,4 +10,4 @@ script:
   - npm run build
   - npm run start &
   # - sleep 30 && npm run test:interaction
-  - sleep 30 && $(npm bin)/cypress run --record
+  - sleep 30 && $(npm bin)/cypress run --record --browser chrome
