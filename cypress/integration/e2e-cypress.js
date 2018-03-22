@@ -15,7 +15,7 @@ describe('Cowboy Horoscope', function () {
         });
 
         it('reveals horoscope', () => {
-            cy.get('.Select').first().click();
+            cy.get('#react-select-2--value > .Select-placeholder').first().click();
             cy.get('#react-select-2--option-2').click();
             cy.get('.Select').eq(1).click();
             cy.get('#react-select-3--option-3').click();
